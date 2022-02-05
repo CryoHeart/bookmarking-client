@@ -1,0 +1,26 @@
+
+.aboutDiv{
+    margin: 40px;
+    padding:40px;
+    justify-items: center;
+    background-color: aliceblue;
+    width: 95%;
+    height: 80%;
+    display: flex;
+}
+.textDiv{
+    width: 50%;
+}
+.imageDiv {
+    margin-left: 80px;
+    width: 30%;
+}
+h1 {
+    font-size: 49px;
+}
+p{
+    font-size: 23px;
+}
+.buttonsDiv{
+    text-align: center;
+}

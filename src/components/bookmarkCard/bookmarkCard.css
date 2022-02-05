@@ -1,0 +1,71 @@
+body{
+    
+}
+h5 {
+    margin: 0px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+p {
+    font-size: 12px;
+}
+
+.property-description {
+    padding-top: 15px;
+    height: 10em;
+    display: block;
+}
+
+.property-card {
+    margin: 50px;
+    margin-top: 40px;
+    display: block;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow: 15px 15px 27px #000000, -15px -15px 27px #ffffff;
+    background-color: #FAFAFC;
+    height: 19em;
+    width: 14em;
+    bottom: 0em;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+
+
+
+.property-card:hover .property-social-icons {
+    background-color: white;
+}
+
+.property-card:hover .property-social-icons:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.button {
+    margin: 5px;
+    background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+    background-size: 800% 400%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    transition: all .5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+}
+.ReactModal__Overlay{
+    position: center;
+    background-color: #00000098 !important;
+}
+.ReactModal__Content {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    height: 53%;
+}
